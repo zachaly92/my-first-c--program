@@ -13,6 +13,10 @@ namespace CSharpTutorials
             string message =  "Hello World!! This is me!";
 
             Console.WriteLine(message);
+            for(int i = 0; i< 10; i++)
+            {
+                console.WriteLine("Value of i: {0}", i);
+            }
         }
     }
 }
